@@ -99,7 +99,7 @@ const ItemCard = () => {
   return (
     <div className="flex flex-wrap">
       {userList.map((user, index) => (
-        <div key={index} className="w-1/3 p-4">
+        <div key={index} className="p-4 w-full lg:w-1/3 md:w-1/2 sm:w-1/2">
           <div
             className={`bg-white rounded-md p-4 flex transition duration-300 transform ${
               hoveredIndex === index ? "hover:scale-105 shadow-2xl" : ""
